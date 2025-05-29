@@ -1,0 +1,60 @@
+@import 'variaveis.less';
+@import 'mapas.less';
+
+body {
+     background-color: #colors[cordefundo];
+     font-family: @fontePrincipal;
+     color: #colors[cordotexto];
+}
+
+h1 {
+     font-family: @fonteDoTitulo;
+     font-size: 3em;
+     margin: 0 auto;
+}
+
+main {
+     max-width: 960px;
+     width: 100%;
+     margin: 0 auto;
+     font-size: 2em;
+     text-align: center;
+}
+
+button {
+     padding: 16px;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 1.3em;
+     margin-top: 16px;
+     border-radius: 8px;
+     background-color: #colors[corbutton];
+     color: #colors[cortextobutton];
+     font-family: @fontePrincipal;
+}
+
+input {
+     display: block;
+     margin: 16px auto 0;
+     font-size: 2em;
+     max-width: 120px;
+     border: none;
+     background-color: transparent;
+     text-align: center;
+     color: #colors[cordotexto];
+     border-bottom: 6px solid #fff;
+}
+
+.resultado {
+     padding: 16px;
+     margin-top: 50px;
+     border: 8px dotted #e6cece;
+     text-align: center;
+     display: none;
+
+     span {
+          font-weight: bold;
+          font-size: 3em;
+          display: block;
+     }
+}
